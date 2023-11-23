@@ -13,7 +13,6 @@ The Library Loan Management System (LLMS) is an advanced software solution devel
 - <b>Object-Oriented Programming (OOP)</b>
 - <b>Documentation</b> 
 
-
 <h2>Environments Used </h2>
 
 - <b>Mac OS</b>
@@ -21,8 +20,8 @@ The Library Loan Management System (LLMS) is an advanced software solution devel
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Change Me: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+How to run the program: <br/>
+<img width="841" alt="SS 1" src="https://github.com/thanetate/LLMS/assets/99837458/51a20a75-5ab4-45bc-8f20-1f954f0b77a7">
 <br />
 <br />
 Change Me:  <br/>
