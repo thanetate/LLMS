@@ -1,16 +1,17 @@
-<h1>Library Database Project</h1>
+<h1>Library Loan Management System (LLMS)</h1>
 
 
 
 <h2>Description</h2>
-blah blah blah
+The Library Loan Management System (LLMS) is an advanced software solution developed as part of the CSCE 1040 Homework 2 assignment. This project tackles the intricacies of efficiently managing loans from the local public library, providing a comprehensive system to streamline operations related to Patrons, Books, and Loans.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>C++</b>
-- <b>Any Other Utilities Used Goes Here</b> 
+- <b>Object-Oriented Programming (OOP)</b>
+- <b>Documentation</b> 
 
 
 <h2>Environments Used </h2>
