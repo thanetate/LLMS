@@ -1,0 +1,59 @@
+Key Entities:
+
+Patrons:
+
+Name
+ID number
+Fine Balance
+Current # of books out
+Books:
+
+Author
+Title
+ISBN Number
+Library ID number
+Cost
+Current Status (In, Out, Repair, Lost)
+Loans (Transaction Entity):
+
+Loan ID
+Book ID
+Patron ID
+Due Date and Time
+Current Status (overdue, normal)
+Functionality:
+The LLMS incorporates a robust set of functionalities for each entity:
+
+Patrons and Books:
+
+Add, Edit, Delete, Search/Find based on appropriate criteria
+Print a list of all entries in the collection
+Print the details for a single entity
+Additional methods for specific requirements
+Loans:
+
+Check Out a book (update book and patron info as well as add a loan)
+Check in a book (check for fines and update patron and book info and delete loan)
+List all overdue books
+List all books for a particular patron
+Update loan status based on the system clock
+Re-Check a book
+Edit a loan
+Report lost (update book and charge patron book cost as well)
+Additional methods for specific requirements
+Validation and Verification:
+
+Ensure a Patron has no overdue books and the total books out will be <= 6 before borrowing a book.
+Determine if fines are owed when checking a book in.
+Record the cost of a lost book to the patron's fine balance when reporting a book as lost.
+Provide appropriate menu systems for seamless user interaction.
+Loan Policies:
+
+Loan period: 10 days with an additional recheck of 10 days (1 recheck only)
+A maximum of 6 books can be out to a single patron at a time.
+Fine rate: $0.25 per day (24-hour period)
+Data Loading and Storage:
+
+Automatic loading and storing of data at program start and end.
+Immediate storage after add, delete, or edit operations to preserve data changes.
+Note: This project assumes each book has a unique acquisition number, and these numbers are used to refer to borrowed and returned books. The LLMS does not provide card catalog services for book searching.
